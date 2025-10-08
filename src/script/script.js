@@ -11,6 +11,7 @@ class ApostilaApp {
         this.setupDonationModal();
         this.loadApostilas();
         this.setupAutoHideNavbar();
+        this.setupPdModal();
         this.showToast("Apostilas do 4° Bimestre já disponíveis!");
     }
 
@@ -79,8 +80,8 @@ class ApostilaApp {
     }
 
     setupPdModal() {
-        const modal = document.getElementById('pdModal');
-        const closeBtn = document.getElementById('closePdModal');
+        const modal = document.getElementById('donationModal');
+        const openBtn = document.getElementById('closeDonationModal');
 
         modal?.classList.add('active');
 
