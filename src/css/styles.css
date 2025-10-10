@@ -930,11 +930,13 @@ section {
     margin-top: 24px;
     padding-top: 16px;
     border-top: 1px solid var(--border-primary);
+    margin-bottom: 12px;
 }
 
 .volume-section:first-of-type {
     border-top: none;
     margin-top: 16px;
+    margin-bottom: 12px;
 }
 
 .volume-title {
